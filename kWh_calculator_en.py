@@ -8,10 +8,10 @@ print("(D) 6.600 VA")
 d = input("How much voltage (VA)? ")
 
 #rate for every group
-A = float(1.444)
-B = float(1.444)
-C = float(1.669)
-D = float(1.669)
+A = 1.444
+B = 1.444
+C = 1.669
+D = 1.669
 
 #calculating kWh
 daily = w * h / 1000
