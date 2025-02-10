@@ -42,6 +42,6 @@ elif d.upper() == "D":
     monthly_price = monthly * D
 
 #result
-print("Dalam sehari " + str(daily.__round__(2)) + " kWh = Rp " + str(daily_price.__round__(3)))
-print("Dalam Seminggu " + str(weekly.__round__(2)) + " kWh = Rp " + str(weekly_price.__round__(3)))
-print("Dalam Seminggu " + str(monthly.__round__(2)) + " kWh = Rp " + str(monthly_price.__round__(3)))
+print("In a Day " + str(daily.__round__(2)) + " kWh = Rp " + str(daily_price.__round__(3)))
+print("In a Week " + str(weekly.__round__(2)) + " kWh = Rp " + str(weekly_price.__round__(3)))
+print("In a Month " + str(monthly.__round__(2)) + " kWh = Rp " + str(monthly_price.__round__(3)))
